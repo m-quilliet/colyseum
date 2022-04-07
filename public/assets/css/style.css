@@ -1,19 +1,17 @@
 body {
-    background-image: url('/./public/assets/img/pexels-mark-angelo-sampan-1587927.jpg');
+    background-image: url('/./public/assets/img/pexels-rahul-pandit-3052448.jpg');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    font-family:'verdana';
     height: 100vh;
 }
-h1{
-    color:#9c5899;
-}
+
 .id-card-holder {
-    width: 225px;
+    width: 300px;
     padding: 4px;
     margin: 0 auto;
-    background-color: #1f1f1f;
+    background-color:#ac576f;
+    opacity: 0.8;
     border-radius: 5px;
     position: relative;
 }
@@ -35,12 +33,12 @@ h1{
     height: 100px;
     position: absolute;
     top: 105px;
-    left: 222px;
+    left: 298px;
     border-radius: 5px 0 0 5px;
 }
 .id-card {
-    
-    background-color: #fff;
+    width: 280px;
+    background-color:transparent;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -57,14 +55,8 @@ h1{
     width: 80px;
     margin-top: 15px;
 }
-h2 {
-    font-size: 15px;
-    margin: 5px 0;
-}
 h3 {
     font-size: 12px;
-    margin: 2.5px 0;
-    font-weight: 300;
 }
 .qr-code img {
     width: 50px;
@@ -94,7 +86,7 @@ p {
 .id-card-tag-strip {
     width: 45px;
     height: 40px;
-    background-color: #F7D881;
+    background-color: #E0DADA;
     margin: 0 auto;
     border-radius: 5px;
     position: relative;
@@ -107,7 +99,7 @@ p {
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #c1c1c1;
+    background-color: #813A58;
     position: relative;
     top: 10px;
 }
@@ -116,7 +108,7 @@ p {
     height: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
-    border-top: 100px solid #E47C6E;
+    border-top: 100px solid #4A293E;
     margin: -10px auto -30px auto;
 }
 .id-card-tag:after {
@@ -127,7 +119,7 @@ p {
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 100px solid #9c5899;
+    border-top: 100px solid #DE87A4;
     margin: -10px auto -30px auto;
     position: relative;
     top: -130px;
