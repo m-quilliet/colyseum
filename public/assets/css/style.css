@@ -1,13 +1,14 @@
 body {
     background-image: url('/./public/assets/img/pexels-rahul-pandit-3052448.jpg');
     background-size: cover;
-    background-position:center;
     background-repeat: no-repeat;
-    height: 100vh;
+   
+
 }
 
+
 .id-card-holder {
-    width: 300px;
+    width: 370px;
     padding: 4px;
     margin: 0 auto;
     background-color:#ac576f;
@@ -22,7 +23,7 @@ body {
     background-color: #0a0a0a;
     height: 100px;
     position: absolute;
-    top: 105px;
+    top: 250px;
     border-radius: 0 5px 5px 0;
 }
 .id-card-holder:before {
@@ -32,12 +33,12 @@ body {
     background-color: #0a0a0a;
     height: 100px;
     position: absolute;
-    top: 105px;
-    left: 298px;
+    top: 250px;
+    left: 368px;
     border-radius: 5px 0 0 5px;
 }
 .id-card {
-    width: 280px;
+    width: 350px;
     background-color:transparent;
     padding: 10px;
     border-radius: 10px;
@@ -49,14 +50,21 @@ body {
 }
 .header img {
     width: 100px;
-    margin-top: 15px;
+
 }
-.photo img {
-    width: 80px;
-    margin-top: 15px;
+.foreach {
+    margin-top: auto;
+
+}
+.request{
+    font-size:larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#E0DADA;
+    margin-bottom: 10px;
 }
 h3 {
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: auto;
 }
 .qr-code img {
     width: 50px;

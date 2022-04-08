@@ -15,9 +15,9 @@ catch (PDOException $e) { //$e =exception
 try {
     //créer une variable query ou stock reponse de ma methode query qui appartient à la classe pdo cette méthode attend
     //la requette obligatoire (select) et para optionnel (fetch)
-    $sth=$pdo->query("SELECT ``, `firstName` FROM `Clients` WHERE `lastName` LIKE 'm%';");
+    $sth=$pdo->query("SELECT `title`,`performer`,`date`, `startTime`FROM `Shows`");
     //retourne un autre objet pdo statment//$query(sth) est un objet de type pdo statment//
-    $customers= $sth->fetchAll();
+    $performer= $sth->fetchAll();
 } catch (PDOException $e) {
     $error1= $e->getMessage();
 }
@@ -28,7 +28,8 @@ try {
 //customers est un tableau d'objet
 ?>
 <ul>
-<?php foreach($customers as $customer): ?>
-    <li><?= 'NOM: :'.$customer->lastName.' <br> PRENOM :' .$customer->firstName?></li>
+<?php foreach($performers as $performer):?>
+    <!-- <li><?= 'Pour le spectacle :'.$performer->title.' l\'artiste '.$performer->performer. 
+    ' se produira sur scéne le '.$performer->date.' à '.$performer->starTime. ' .'?></li> -->
     <?php endforeach ?>
 </ul>
