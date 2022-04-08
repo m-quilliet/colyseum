@@ -5,8 +5,13 @@ body {
    
 
 }
-
-
+ul{
+    list-style-type: none;
+    margin-right: 15px;
+}
+li{
+    margin-top: 10px;
+}
 .id-card-holder {
     width: 370px;
     padding: 4px;
@@ -50,10 +55,6 @@ body {
 }
 .header img {
     width: 100px;
-
-}
-.foreach {
-    margin-top: auto;
 
 }
 .request{
